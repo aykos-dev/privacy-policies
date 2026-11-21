@@ -312,7 +312,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "12.4. The Licensor processes the data of Users (name, phone number, photo, interface language, device data for notifications) and of the Customer as an operator in accordance with the Privacy Policy of the Service [link].",
+            text: "12.4. The Licensor processes the data of Users (name, phone number, photo, interface language, device data for notifications) and of the Customer as an operator in accordance with the Privacy Policy of the Service (/studio/privacy).",
           },
           {
             type: "paragraph",
@@ -828,7 +828,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "12.4. Данные Пользователей (имя, номер телефона, фото, язык интерфейса, данные устройства для уведомлений) и Заказчика Лицензиар обрабатывает как оператор в соответствии с Политикой конфиденциальности Сервиса [ссылка].",
+            text: "12.4. Данные Пользователей (имя, номер телефона, фото, язык интерфейса, данные устройства для уведомлений) и Заказчика Лицензиар обрабатывает как оператор в соответствии с Политикой конфиденциальности Сервиса (/studio/privacy).",
           },
           {
             type: "paragraph",
@@ -1344,7 +1344,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "12.4. Foydalanuvchilar (ism, telefon raqami, rasm, interfeys tili, bildirishnomalar uchun qurilma ma’lumotlari) va Buyurtmachi ma’lumotlarini Litsenziar operator sifatida Xizmatning Maxfiylik siyosatiga [havola] muvofiq qayta ishlaydi.",
+            text: "12.4. Foydalanuvchilar (ism, telefon raqami, rasm, interfeys tili, bildirishnomalar uchun qurilma ma’lumotlari) va Buyurtmachi ma’lumotlarini Litsenziar operator sifatida Xizmatning Maxfiylik siyosatiga (/studio/privacy) muvofiq qayta ishlaydi.",
           },
           {
             type: "paragraph",
