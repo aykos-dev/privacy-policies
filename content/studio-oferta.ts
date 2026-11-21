@@ -3,16 +3,16 @@ import type { LocalizedPolicy } from "@/lib/policy";
 // Public offer agreement (oferta) for the "Studio" project — a mobile app
 // for salons, barbershops and independent masters: calendar, clients,
 // services, team, payment records, reports, online booking website.
-// Values in [square brackets] are not decided yet and must be filled in
-// before the offer is published.
+// Section 12 is also the app's privacy policy (linked from the app stores),
+// so the title starts with "Privacy Policy".
 
 export const studioOferta: LocalizedPolicy = {
   en: {
-    title: "Public Offer Agreement",
+    title: "Privacy Policy and Public Offer Agreement",
     updatedLabel: "Version dated",
     updatedDate: "November 21, 2026",
     intro:
-      "This document is a public offer by [Company legal name] to conclude a licence agreement for the use of the Studio software service on the terms set out below. It is addressed to legal entities, individual entrepreneurs and self-employed persons in the Republic of Uzbekistan who provide beauty and other personal services. Read it carefully: by accepting it in the manner described in section 4, you conclude a binding agreement with us.",
+      "This document contains the Privacy Policy and the Public Offer Agreement of the Studio service. Section 12 is the Privacy Policy: it explains what personal data we collect, how we use, share and protect it, and how to request its deletion. The rest of the document is a public offer to conclude a licence agreement for the use of the Studio software service on the terms set out below. It is addressed to legal entities, individual entrepreneurs and self-employed persons in the Republic of Uzbekistan who provide beauty and other personal services. Read it carefully: by accepting it in the manner described in section 4, you conclude a binding agreement with us.",
     sections: [
       {
         heading: "1. General Provisions",
@@ -23,7 +23,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "1.2. The Licensor is [Company legal name], TIN [●], registered at [legal address] (the “Licensor”, “we”). The Licensor's full details are given in section 21.",
+            text: "1.2. The Licensor is the company that owns and operates the Studio service (the “Licensor”, “we”).",
           },
           {
             type: "paragraph",
@@ -179,7 +179,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "7.4. To book, a Client enters their name and phone number, passes a captcha, confirms the phone with an SMS code and accepts the end-client terms and privacy policy of the Booking Website [link]. The Client receives a personal link through which they may cancel or reschedule the booking within the rules set by the Customer (cut-off of 0–168 hours before the visit and up to 10 reschedules) and the booking rules of the Service.",
+            text: "7.4. To book, a Client enters their name and phone number, passes a captcha, confirms the phone with an SMS code and accepts the end-client terms and privacy policy of the Booking Website. The Client receives a personal link through which they may cancel or reschedule the booking within the rules set by the Customer (cut-off of 0–168 hours before the visit and up to 10 reschedules) and the booking rules of the Service.",
           },
           {
             type: "paragraph",
@@ -200,7 +200,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "8.2. Prices are set in Uzbek som (UZS) in whole som and [include VAT / are not subject to VAT] in accordance with the tax legislation of the Republic of Uzbekistan.",
+            text: "8.2. Prices are set in Uzbek som (UZS) in whole som. Taxes are applied in accordance with the tax legislation of the Republic of Uzbekistan.",
           },
           {
             type: "paragraph",
@@ -296,7 +296,7 @@ export const studioOferta: LocalizedPolicy = {
         ],
       },
       {
-        heading: "12. Personal Data",
+        heading: "12. Privacy Policy (Personal Data)",
         body: [
           {
             type: "paragraph",
@@ -312,15 +312,15 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "12.4. The Licensor processes the data of Users (name, phone number, photo, interface language, device data for notifications) and of the Customer as an operator in accordance with the Privacy Policy of the Service (/studio/privacy).",
+            text: "12.4. The Licensor processes the data of Users (name, phone number, photo, interface language, device data for notifications) and of the Customer as an operator in accordance with this section.",
           },
           {
             type: "paragraph",
-            text: "12.5. Personal data of citizens of the Republic of Uzbekistan is collected, systematised and stored in databases located on the territory of the Republic of Uzbekistan [hosting provider / data centre].",
+            text: "12.5. Personal data of citizens of the Republic of Uzbekistan is collected, systematised and stored in databases located on the territory of the Republic of Uzbekistan.",
           },
           {
             type: "paragraph",
-            text: "12.6. To provide the Service, the Licensor uses the following third-party services, which receive only the data needed for their function: an SMS provider [name] (phone number and code); Click (order number and amount; card data stays with Click); Google Firebase Cloud Messaging and Apple Push Notification service (device token and notification text); Yandex Maps (search text and coordinates; device location only on request); Cloudflare Turnstile (captcha on the Booking Website); Apple App Store and Google Play (distribution of the app under their terms).",
+            text: "12.6. To provide the Service, the Licensor uses the following third-party services, which receive only the data needed for their function: an SMS provider (phone number and code); Click (order number and amount; card data stays with Click); Google Firebase Cloud Messaging and Apple Push Notification service (device token and notification text); Yandex Maps (search text and coordinates; device location only on request); Cloudflare Turnstile (captcha on the Booking Website); Apple App Store and Google Play (distribution of the app under their terms).",
           },
           {
             type: "paragraph",
@@ -419,7 +419,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "15.3. Support is available through the in-app support screen: Telegram [@●], WhatsApp [+998 ●], e-mail [support@●]. Support hours: [●]. The Licensor aims to respond within [1 business day]. When contacting support, the Customer quotes the location ID and device code shown on the support screen.",
+            text: "15.3. Support is available through the in-app support screen, which lists the current support contacts. When contacting support, the Customer quotes the location ID and device code shown on the support screen.",
           },
         ],
       },
@@ -504,31 +504,15 @@ export const studioOferta: LocalizedPolicy = {
           },
         ],
       },
-      {
-        heading: "21. Licensor Details",
-        body: [
-          {
-            type: "list",
-            items: [
-              "Name: [Company legal name]",
-              "TIN: [●]",
-              "Legal address: [●]",
-              "Bank: [●], account: [●], MFO: [●]",
-              "E-mail: [support@●]",
-              "Phone: [+998 ●]",
-            ],
-          },
-        ],
-      },
     ],
   },
 
   ru: {
-    title: "Публичная оферта",
+    title: "Политика конфиденциальности и публичная оферта",
     updatedLabel: "Редакция от",
     updatedDate: "21 ноября 2026 г.",
     intro:
-      "Настоящий документ является публичной офертой [наименование компании] о заключении лицензионного договора на использование программного сервиса Studio на изложенных ниже условиях. Оферта адресована юридическим лицам, индивидуальным предпринимателям и самозанятым лицам Республики Узбекистан, оказывающим услуги красоты и иные бытовые услуги. Внимательно ознакомьтесь с ней: принимая её в порядке, указанном в разделе 4, вы заключаете с нами договор.",
+      "Настоящий документ содержит Политику конфиденциальности и публичную оферту сервиса Studio. Раздел 12 является Политикой конфиденциальности: в нём описано, какие персональные данные мы собираем, как используем, передаём и защищаем их и как запросить их удаление. Остальная часть документа является публичной офертой о заключении лицензионного договора на использование программного сервиса Studio на изложенных ниже условиях. Оферта адресована юридическим лицам, индивидуальным предпринимателям и самозанятым лицам Республики Узбекистан, оказывающим услуги красоты и иные бытовые услуги. Внимательно ознакомьтесь с ней: принимая её в порядке, указанном в разделе 4, вы заключаете с нами договор.",
     sections: [
       {
         heading: "1. Общие положения",
@@ -539,7 +523,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "1.2. Лицензиар — [наименование компании], ИНН [●], адрес: [юридический адрес] (далее — «Лицензиар», «мы»). Полные реквизиты Лицензиара приведены в разделе 21.",
+            text: "1.2. Лицензиар — компания, которой принадлежит сервис Studio и которая обеспечивает его работу (далее — «Лицензиар», «мы»).",
           },
           {
             type: "paragraph",
@@ -695,7 +679,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "7.4. Для записи Клиент указывает имя и номер телефона, проходит капчу, подтверждает телефон SMS-кодом и принимает условия и политику конфиденциальности Сайта записи для клиентов [ссылка]. Клиент получает персональную ссылку, по которой может отменить или перенести запись в рамках правил, установленных Заказчиком (не позднее чем за 0–168 часов до визита и не более 10 переносов), и правил записи Сервиса.",
+            text: "7.4. Для записи Клиент указывает имя и номер телефона, проходит капчу, подтверждает телефон SMS-кодом и принимает условия и политику конфиденциальности Сайта записи для клиентов. Клиент получает персональную ссылку, по которой может отменить или перенести запись в рамках правил, установленных Заказчиком (не позднее чем за 0–168 часов до визита и не более 10 переносов), и правил записи Сервиса.",
           },
           {
             type: "paragraph",
@@ -716,7 +700,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "8.2. Цены устанавливаются в узбекских сумах (UZS) в целых сумах и [включают НДС / не облагаются НДС] в соответствии с налоговым законодательством Республики Узбекистан.",
+            text: "8.2. Цены устанавливаются в узбекских сумах (UZS) в целых сумах. Налоги применяются в соответствии с налоговым законодательством Республики Узбекистан.",
           },
           {
             type: "paragraph",
@@ -812,7 +796,7 @@ export const studioOferta: LocalizedPolicy = {
         ],
       },
       {
-        heading: "12. Персональные данные",
+        heading: "12. Политика конфиденциальности (персональные данные)",
         body: [
           {
             type: "paragraph",
@@ -828,15 +812,15 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "12.4. Данные Пользователей (имя, номер телефона, фото, язык интерфейса, данные устройства для уведомлений) и Заказчика Лицензиар обрабатывает как оператор в соответствии с Политикой конфиденциальности Сервиса (/studio/privacy).",
+            text: "12.4. Данные Пользователей (имя, номер телефона, фото, язык интерфейса, данные устройства для уведомлений) и Заказчика Лицензиар обрабатывает как оператор в соответствии с настоящим разделом.",
           },
           {
             type: "paragraph",
-            text: "12.5. Сбор, систематизация и хранение персональных данных граждан Республики Узбекистан осуществляются в базах данных, расположенных на территории Республики Узбекистан [хостинг-провайдер / дата-центр].",
+            text: "12.5. Сбор, систематизация и хранение персональных данных граждан Республики Узбекистан осуществляются в базах данных, расположенных на территории Республики Узбекистан.",
           },
           {
             type: "paragraph",
-            text: "12.6. Для предоставления Сервиса Лицензиар использует следующие сторонние сервисы, получающие только данные, необходимые для их функции: SMS-провайдер [наименование] (номер телефона и код); Click (номер заказа и сумма; данные карты остаются у Click); Google Firebase Cloud Messaging и Apple Push Notification service (токен устройства и текст уведомления); Яндекс Карты (текст поиска и координаты; геолокация устройства — только по запросу); Cloudflare Turnstile (капча на Сайте записи); Apple App Store и Google Play (распространение приложения на их условиях).",
+            text: "12.6. Для предоставления Сервиса Лицензиар использует следующие сторонние сервисы, получающие только данные, необходимые для их функции: SMS-провайдер (номер телефона и код); Click (номер заказа и сумма; данные карты остаются у Click); Google Firebase Cloud Messaging и Apple Push Notification service (токен устройства и текст уведомления); Яндекс Карты (текст поиска и координаты; геолокация устройства — только по запросу); Cloudflare Turnstile (капча на Сайте записи); Apple App Store и Google Play (распространение приложения на их условиях).",
           },
           {
             type: "paragraph",
@@ -935,7 +919,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "15.3. Поддержка доступна через экран поддержки в приложении: Telegram [@●], WhatsApp [+998 ●], e-mail [support@●]. Часы работы: [●]. Лицензиар стремится ответить в течение [1 рабочего дня]. При обращении Заказчик сообщает идентификатор филиала и код устройства, указанные на экране поддержки.",
+            text: "15.3. Поддержка доступна через экран поддержки в приложении, где указаны актуальные контакты. При обращении Заказчик сообщает идентификатор филиала и код устройства, указанные на экране поддержки.",
           },
         ],
       },
@@ -1020,31 +1004,15 @@ export const studioOferta: LocalizedPolicy = {
           },
         ],
       },
-      {
-        heading: "21. Реквизиты Лицензиара",
-        body: [
-          {
-            type: "list",
-            items: [
-              "Наименование: [наименование компании]",
-              "ИНН: [●]",
-              "Юридический адрес: [●]",
-              "Банк: [●], р/с: [●], МФО: [●]",
-              "E-mail: [support@●]",
-              "Телефон: [+998 ●]",
-            ],
-          },
-        ],
-      },
     ],
   },
 
   uz: {
-    title: "Ommaviy oferta",
+    title: "Maxfiylik siyosati va ommaviy oferta",
     updatedLabel: "Tahrir sanasi",
     updatedDate: "2026-yil 21-noyabr",
     intro:
-      "Ushbu hujjat [kompaniya nomi] tomonidan Studio dasturiy xizmatidan foydalanish bo‘yicha litsenziya shartnomasini quyidagi shartlarda tuzish to‘g‘risidagi ommaviy ofertadir. Oferta go‘zallik va boshqa maishiy xizmatlar ko‘rsatuvchi O‘zbekiston Respublikasidagi yuridik shaxslar, yakka tartibdagi tadbirkorlar va o‘zini o‘zi band qilgan shaxslarga qaratilgan. Uni diqqat bilan o‘qing: 4-bo‘limda ko‘rsatilgan tartibda qabul qilish orqali siz biz bilan shartnoma tuzasiz.",
+      "Ushbu hujjat Studio xizmatining Maxfiylik siyosati va ommaviy ofertasini o‘z ichiga oladi. 12-bo‘lim Maxfiylik siyosati hisoblanadi: unda qanday shaxsga doir ma’lumotlarni yig‘ishimiz, ulardan qanday foydalanishimiz, ularni qanday uzatishimiz va himoya qilishimiz hamda ularni o‘chirishni qanday so‘rash mumkinligi bayon etilgan. Hujjatning qolgan qismi Studio dasturiy xizmatidan foydalanish bo‘yicha litsenziya shartnomasini quyidagi shartlarda tuzish to‘g‘risidagi ommaviy ofertadir. Oferta go‘zallik va boshqa maishiy xizmatlar ko‘rsatuvchi O‘zbekiston Respublikasidagi yuridik shaxslar, yakka tartibdagi tadbirkorlar va o‘zini o‘zi band qilgan shaxslarga qaratilgan. Uni diqqat bilan o‘qing: 4-bo‘limda ko‘rsatilgan tartibda qabul qilish orqali siz biz bilan shartnoma tuzasiz.",
     sections: [
       {
         heading: "1. Umumiy qoidalar",
@@ -1055,7 +1023,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "1.2. Litsenziar — [kompaniya nomi], STIR [●], manzil: [yuridik manzil] (keyingi o‘rinlarda — “Litsenziar”, “biz”). Litsenziarning to‘liq rekvizitlari 21-bo‘limda keltirilgan.",
+            text: "1.2. Litsenziar — Studio xizmatiga egalik qiluvchi va uning ishlashini ta’minlovchi kompaniya (keyingi o‘rinlarda — “Litsenziar”, “biz”).",
           },
           {
             type: "paragraph",
@@ -1211,7 +1179,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "7.4. Yozilish uchun Mijoz ismi va telefon raqamini kiritadi, kapchadan o‘tadi, telefonni SMS-kod bilan tasdiqlaydi va Yozilish saytining mijozlar uchun shartlari va maxfiylik siyosatini qabul qiladi [havola]. Mijoz shaxsiy havola oladi va u orqali Buyurtmachi belgilagan qoidalar (tashrifdan 0–168 soat oldingacha va ko‘pi bilan 10 marta ko‘chirish) hamda Xizmatning yozilish qoidalari doirasida yozuvni bekor qilishi yoki ko‘chirishi mumkin.",
+            text: "7.4. Yozilish uchun Mijoz ismi va telefon raqamini kiritadi, kapchadan o‘tadi, telefonni SMS-kod bilan tasdiqlaydi va Yozilish saytining mijozlar uchun shartlari va maxfiylik siyosatini qabul qiladi. Mijoz shaxsiy havola oladi va u orqali Buyurtmachi belgilagan qoidalar (tashrifdan 0–168 soat oldingacha va ko‘pi bilan 10 marta ko‘chirish) hamda Xizmatning yozilish qoidalari doirasida yozuvni bekor qilishi yoki ko‘chirishi mumkin.",
           },
           {
             type: "paragraph",
@@ -1232,7 +1200,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "8.2. Narxlar o‘zbek so‘mida (UZS), butun so‘mlarda belgilanadi va O‘zbekiston Respublikasi soliq qonunchiligiga muvofiq [QQSni o‘z ichiga oladi / QQSga tortilmaydi].",
+            text: "8.2. Narxlar o‘zbek so‘mida (UZS), butun so‘mlarda belgilanadi. Soliqlar O‘zbekiston Respublikasi soliq qonunchiligiga muvofiq qo‘llaniladi.",
           },
           {
             type: "paragraph",
@@ -1328,7 +1296,7 @@ export const studioOferta: LocalizedPolicy = {
         ],
       },
       {
-        heading: "12. Shaxsga doir ma’lumotlar",
+        heading: "12. Maxfiylik siyosati (shaxsga doir ma’lumotlar)",
         body: [
           {
             type: "paragraph",
@@ -1344,15 +1312,15 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "12.4. Foydalanuvchilar (ism, telefon raqami, rasm, interfeys tili, bildirishnomalar uchun qurilma ma’lumotlari) va Buyurtmachi ma’lumotlarini Litsenziar operator sifatida Xizmatning Maxfiylik siyosatiga (/studio/privacy) muvofiq qayta ishlaydi.",
+            text: "12.4. Foydalanuvchilar (ism, telefon raqami, rasm, interfeys tili, bildirishnomalar uchun qurilma ma’lumotlari) va Buyurtmachi ma’lumotlarini Litsenziar operator sifatida ushbu bo‘limga muvofiq qayta ishlaydi.",
           },
           {
             type: "paragraph",
-            text: "12.5. O‘zbekiston Respublikasi fuqarolarining shaxsga doir ma’lumotlarini yig‘ish, tizimlashtirish va saqlash O‘zbekiston Respublikasi hududida joylashgan ma’lumotlar bazalarida amalga oshiriladi [xosting-provayder / ma’lumotlar markazi].",
+            text: "12.5. O‘zbekiston Respublikasi fuqarolarining shaxsga doir ma’lumotlarini yig‘ish, tizimlashtirish va saqlash O‘zbekiston Respublikasi hududida joylashgan ma’lumotlar bazalarida amalga oshiriladi.",
           },
           {
             type: "paragraph",
-            text: "12.6. Xizmatni taqdim etish uchun Litsenziar faqat o‘z vazifasi uchun zarur ma’lumotlarni oladigan quyidagi uchinchi tomon xizmatlaridan foydalanadi: SMS-provayder [nomi] (telefon raqami va kod); Click (buyurtma raqami va summa; karta ma’lumotlari Clickda qoladi); Google Firebase Cloud Messaging va Apple Push Notification service (qurilma tokeni va bildirishnoma matni); Yandex Xaritalar (qidiruv matni va koordinatalar; qurilma joylashuvi — faqat so‘rov bo‘yicha); Cloudflare Turnstile (Yozilish saytidagi kapcha); Apple App Store va Google Play (ilovani ularning shartlari asosida tarqatish).",
+            text: "12.6. Xizmatni taqdim etish uchun Litsenziar faqat o‘z vazifasi uchun zarur ma’lumotlarni oladigan quyidagi uchinchi tomon xizmatlaridan foydalanadi: SMS-provayder (telefon raqami va kod); Click (buyurtma raqami va summa; karta ma’lumotlari Clickda qoladi); Google Firebase Cloud Messaging va Apple Push Notification service (qurilma tokeni va bildirishnoma matni); Yandex Xaritalar (qidiruv matni va koordinatalar; qurilma joylashuvi — faqat so‘rov bo‘yicha); Cloudflare Turnstile (Yozilish saytidagi kapcha); Apple App Store va Google Play (ilovani ularning shartlari asosida tarqatish).",
           },
           {
             type: "paragraph",
@@ -1451,7 +1419,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "15.3. Qo‘llab-quvvatlash ilovadagi qo‘llab-quvvatlash ekrani orqali mavjud: Telegram [@●], WhatsApp [+998 ●], e-mail [support@●]. Ish vaqti: [●]. Litsenziar [1 ish kuni] ichida javob berishga intiladi. Murojaat qilishda Buyurtmachi qo‘llab-quvvatlash ekranida ko‘rsatilgan filial identifikatori va qurilma kodini ma’lum qiladi.",
+            text: "15.3. Qo‘llab-quvvatlash ilovadagi qo‘llab-quvvatlash ekrani orqali mavjud, unda amaldagi aloqa ma’lumotlari ko‘rsatilgan. Murojaat qilishda Buyurtmachi qo‘llab-quvvatlash ekranida ko‘rsatilgan filial identifikatori va qurilma kodini ma’lum qiladi.",
           },
         ],
       },
@@ -1533,22 +1501,6 @@ export const studioOferta: LocalizedPolicy = {
           {
             type: "paragraph",
             text: "20.3. Ushbu Shartnoma o‘zbek, rus va ingliz tillarida e’lon qilingan. Matnlar o‘rtasida tafovut bo‘lsa, rus tilidagi matn ustunlikka ega.",
-          },
-        ],
-      },
-      {
-        heading: "21. Litsenziar rekvizitlari",
-        body: [
-          {
-            type: "list",
-            items: [
-              "Nomi: [kompaniya nomi]",
-              "STIR: [●]",
-              "Yuridik manzil: [●]",
-              "Bank: [●], h/r: [●], MFO: [●]",
-              "E-mail: [support@●]",
-              "Telefon: [+998 ●]",
-            ],
           },
         ],
       },

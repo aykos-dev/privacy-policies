@@ -4,8 +4,7 @@ import Link from "next/link";
 // Lists the projects whose privacy policies are hosted here.
 const projects = [
   { slug: "ijaradosh", name: "Ijaradosh" },
-  { slug: "studio/privacy", name: "Studio — Privacy policy" },
-  { slug: "studio/oferta", name: "Studio — Public offer" },
+  { slug: "studio/oferta", name: "Studio — Privacy policy and public offer" },
   // Add future projects here, e.g. { slug: "wayout", name: "Wayout" }
 ];
 
