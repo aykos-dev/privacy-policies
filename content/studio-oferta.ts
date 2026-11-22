@@ -1,6 +1,6 @@
 import type { LocalizedPolicy } from "@/lib/policy";
 
-// Public offer agreement (oferta) for the "Studio" project — a mobile app
+// Public offer agreement (oferta) for the "Subly" project — a mobile app
 // for salons, barbershops and independent masters: calendar, clients,
 // services, team, payment records, reports, online booking website.
 // Section 12 is also the app's privacy policy (linked from the app stores),
@@ -10,9 +10,9 @@ export const studioOferta: LocalizedPolicy = {
   en: {
     title: "Privacy Policy and Public Offer Agreement",
     updatedLabel: "Version dated",
-    updatedDate: "November 21, 2026",
+    updatedDate: "November 22, 2026",
     intro:
-      "This document contains the Privacy Policy and the Public Offer Agreement of the Studio service. Section 12 is the Privacy Policy: it explains what personal data we collect, how we use, share and protect it, and how to request its deletion. The rest of the document is a public offer to conclude a licence agreement for the use of the Studio software service on the terms set out below. It is addressed to legal entities, individual entrepreneurs and self-employed persons in the Republic of Uzbekistan who provide beauty and other personal services. Read it carefully: by accepting it in the manner described in section 4, you conclude a binding agreement with us.",
+      "This document contains the Privacy Policy and the Public Offer Agreement of the Subly service, including the Subly mobile app (Android package name com.subly.uz), published on Google Play under the developer name Sardor Mahmudov and operated by JABS PROJECT, MChJ. Section 12 is the Privacy Policy: it explains what personal data we collect, how we use, share and protect it, and how to request its deletion. The rest of the document is a public offer to conclude a licence agreement for the use of the Subly software service on the terms set out below. It is addressed to legal entities, individual entrepreneurs and self-employed persons in the Republic of Uzbekistan who provide beauty and other personal services. Read it carefully: by accepting it in the manner described in section 4, you conclude a binding agreement with us.",
     sections: [
       {
         heading: "1. General Provisions",
@@ -23,7 +23,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "1.2. The Licensor is the company that owns and operates the Studio service (the “Licensor”, “we”).",
+            text: "1.2. The Licensor is JABS PROJECT, MChJ (limited liability company), legal address: 32, 20, Yangi Kamolot MFY, Feruza (Kadirova) Str., Tashkent - 100059, Uzbekistan (the “Licensor”, “we”). The Licensor owns and operates the Subly service, including the Subly mobile app (Android package name com.subly.uz), which is published on Google Play and the App Store under the developer name Sardor Mahmudov. Contacts: e-mail sardormahmudov16@gmail.com, phone +998 94 640 86 46.",
           },
           {
             type: "paragraph",
@@ -37,12 +37,12 @@ export const studioOferta: LocalizedPolicy = {
           {
             type: "list",
             items: [
-              "Service — the Studio mobile application for iOS and Android, its server part and the online booking websites created through it, owned and operated by the Licensor.",
+              "Service — the Subly mobile application for iOS and Android, its server part and the online booking websites created through it, owned and operated by the Licensor.",
               "Customer — a legal entity, individual entrepreneur or self-employed person who has created a Business in the Service and accepted this Agreement.",
               "Business — the Customer's account in the Service, containing its branches, services, team, clients, schedules, payment records and settings.",
               "User — an individual who signs in to the Service with their phone number. One User may belong to several Businesses with a different role in each.",
               "Owner, Manager, Staff — the roles a User may have in a Business, with the permissions described in section 5.",
-              "Client — a customer of the Customer: a person whose data the Customer enters in the Service or who books the Customer's services through the Booking Website. Clients do not use the Studio app.",
+              "Client — a customer of the Customer: a person whose data the Customer enters in the Service or who books the Customer's services through the Booking Website. Clients do not use the Subly app.",
               "Booking Website — a public web page of a Business, created in the Service, through which Clients book the Customer's services themselves.",
               "Subscription — paid access to the Service for a chosen Plan and period.",
               "Plan — a set of Service terms (name, team size limit, price options by period) published in the app.",
@@ -330,6 +330,10 @@ export const studioOferta: LocalizedPolicy = {
             type: "paragraph",
             text: "12.8. Requests to access, correct, delete or export data, and requests to delete a User account or a Business, are sent through support. The Licensor responds within 30 days. Requests from Clients about data held by the Customer are forwarded to the Customer, which decides on them as the owner of the data.",
           },
+          {
+            type: "paragraph",
+            text: "12.9. Operator of personal data and contact for privacy questions: JABS PROJECT, MChJ, the developer of the Subly app (Google Play developer name: Sardor Mahmudov; package name com.subly.uz), 32, 20, Yangi Kamolot MFY, Feruza (Kadirova) Str., Tashkent - 100059, Uzbekistan; e-mail: sardormahmudov16@gmail.com; phone: +998 94 640 86 46. Requests under section 12.8 may also be sent to this e-mail.",
+          },
         ],
       },
       {
@@ -510,9 +514,9 @@ export const studioOferta: LocalizedPolicy = {
   ru: {
     title: "Политика конфиденциальности и публичная оферта",
     updatedLabel: "Редакция от",
-    updatedDate: "21 ноября 2026 г.",
+    updatedDate: "22 ноября 2026 г.",
     intro:
-      "Настоящий документ содержит Политику конфиденциальности и публичную оферту сервиса Studio. Раздел 12 является Политикой конфиденциальности: в нём описано, какие персональные данные мы собираем, как используем, передаём и защищаем их и как запросить их удаление. Остальная часть документа является публичной офертой о заключении лицензионного договора на использование программного сервиса Studio на изложенных ниже условиях. Оферта адресована юридическим лицам, индивидуальным предпринимателям и самозанятым лицам Республики Узбекистан, оказывающим услуги красоты и иные бытовые услуги. Внимательно ознакомьтесь с ней: принимая её в порядке, указанном в разделе 4, вы заключаете с нами договор.",
+      "Настоящий документ содержит Политику конфиденциальности и публичную оферту сервиса Subly, включая мобильное приложение Subly (имя пакета Android: com.subly.uz), опубликованное в Google Play под именем разработчика Sardor Mahmudov, работу которого обеспечивает JABS PROJECT, MChJ. Раздел 12 является Политикой конфиденциальности: в нём описано, какие персональные данные мы собираем, как используем, передаём и защищаем их и как запросить их удаление. Остальная часть документа является публичной офертой о заключении лицензионного договора на использование программного сервиса Subly на изложенных ниже условиях. Оферта адресована юридическим лицам, индивидуальным предпринимателям и самозанятым лицам Республики Узбекистан, оказывающим услуги красоты и иные бытовые услуги. Внимательно ознакомьтесь с ней: принимая её в порядке, указанном в разделе 4, вы заключаете с нами договор.",
     sections: [
       {
         heading: "1. Общие положения",
@@ -523,7 +527,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "1.2. Лицензиар — компания, которой принадлежит сервис Studio и которая обеспечивает его работу (далее — «Лицензиар», «мы»).",
+            text: "1.2. Лицензиар — JABS PROJECT, MChJ (общество с ограниченной ответственностью), юридический адрес: 32, 20, Yangi Kamolot MFY, Feruza (Kadirova) Str., Tashkent - 100059, Uzbekistan (далее — «Лицензиар», «мы»). Лицензиару принадлежит сервис Subly, включая мобильное приложение Subly (имя пакета Android: com.subly.uz), опубликованное в Google Play и App Store под именем разработчика Sardor Mahmudov, и Лицензиар обеспечивает его работу. Контакты: e-mail sardormahmudov16@gmail.com, телефон +998 94 640 86 46.",
           },
           {
             type: "paragraph",
@@ -537,12 +541,12 @@ export const studioOferta: LocalizedPolicy = {
           {
             type: "list",
             items: [
-              "Сервис — мобильное приложение Studio для iOS и Android, его серверная часть и создаваемые через него сайты онлайн-записи, принадлежащие Лицензиару и обслуживаемые им.",
+              "Сервис — мобильное приложение Subly для iOS и Android, его серверная часть и создаваемые через него сайты онлайн-записи, принадлежащие Лицензиару и обслуживаемые им.",
               "Заказчик — юридическое лицо, индивидуальный предприниматель или самозанятое лицо, создавшее Бизнес в Сервисе и акцептовавшее настоящий Договор.",
               "Бизнес — учётная запись Заказчика в Сервисе, содержащая его филиалы, услуги, команду, клиентов, расписания, записи об оплатах и настройки.",
               "Пользователь — физическое лицо, входящее в Сервис по номеру телефона. Один Пользователь может состоять в нескольких Бизнесах с разной ролью в каждом.",
               "Владелец, Менеджер, Сотрудник — роли Пользователя в Бизнесе с правами, описанными в разделе 5.",
-              "Клиент — клиент Заказчика: лицо, данные которого Заказчик вносит в Сервис или которое записывается на услуги Заказчика через Сайт записи. Клиенты не используют приложение Studio.",
+              "Клиент — клиент Заказчика: лицо, данные которого Заказчик вносит в Сервис или которое записывается на услуги Заказчика через Сайт записи. Клиенты не используют приложение Subly.",
               "Сайт записи — публичная веб-страница Бизнеса, созданная в Сервисе, через которую Клиенты самостоятельно записываются на услуги Заказчика.",
               "Подписка — платный доступ к Сервису по выбранному Тарифу на выбранный срок.",
               "Тариф — набор условий Сервиса (название, лимит численности команды, варианты цены по срокам), опубликованный в приложении.",
@@ -830,6 +834,10 @@ export const studioOferta: LocalizedPolicy = {
             type: "paragraph",
             text: "12.8. Запросы на доступ, исправление, удаление или выгрузку данных, а также на удаление учётной записи Пользователя или Бизнеса направляются через службу поддержки. Лицензиар отвечает в течение 30 дней. Запросы Клиентов о данных, находящихся у Заказчика, передаются Заказчику, который принимает по ним решение как собственник данных.",
           },
+          {
+            type: "paragraph",
+            text: "12.9. Оператор персональных данных и контакт по вопросам конфиденциальности: JABS PROJECT, MChJ, разработчик приложения Subly (имя разработчика в Google Play: Sardor Mahmudov; имя пакета com.subly.uz), 32, 20, Yangi Kamolot MFY, Feruza (Kadirova) Str., Tashkent - 100059, Uzbekistan; e-mail: sardormahmudov16@gmail.com; телефон: +998 94 640 86 46. Запросы по пункту 12.8 также можно направить на этот e-mail.",
+          },
         ],
       },
       {
@@ -1010,9 +1018,9 @@ export const studioOferta: LocalizedPolicy = {
   uz: {
     title: "Maxfiylik siyosati va ommaviy oferta",
     updatedLabel: "Tahrir sanasi",
-    updatedDate: "2026-yil 21-noyabr",
+    updatedDate: "2026-yil 22-noyabr",
     intro:
-      "Ushbu hujjat Studio xizmatining Maxfiylik siyosati va ommaviy ofertasini o‘z ichiga oladi. 12-bo‘lim Maxfiylik siyosati hisoblanadi: unda qanday shaxsga doir ma’lumotlarni yig‘ishimiz, ulardan qanday foydalanishimiz, ularni qanday uzatishimiz va himoya qilishimiz hamda ularni o‘chirishni qanday so‘rash mumkinligi bayon etilgan. Hujjatning qolgan qismi Studio dasturiy xizmatidan foydalanish bo‘yicha litsenziya shartnomasini quyidagi shartlarda tuzish to‘g‘risidagi ommaviy ofertadir. Oferta go‘zallik va boshqa maishiy xizmatlar ko‘rsatuvchi O‘zbekiston Respublikasidagi yuridik shaxslar, yakka tartibdagi tadbirkorlar va o‘zini o‘zi band qilgan shaxslarga qaratilgan. Uni diqqat bilan o‘qing: 4-bo‘limda ko‘rsatilgan tartibda qabul qilish orqali siz biz bilan shartnoma tuzasiz.",
+      "Ushbu hujjat Subly xizmatining, jumladan Google Play’da Sardor Mahmudov dasturchi nomi ostida e’lon qilingan va JABS PROJECT, MChJ tomonidan boshqariladigan Subly mobil ilovasining (Android paket nomi: com.subly.uz) Maxfiylik siyosati va ommaviy ofertasini o‘z ichiga oladi. 12-bo‘lim Maxfiylik siyosati hisoblanadi: unda qanday shaxsga doir ma’lumotlarni yig‘ishimiz, ulardan qanday foydalanishimiz, ularni qanday uzatishimiz va himoya qilishimiz hamda ularni o‘chirishni qanday so‘rash mumkinligi bayon etilgan. Hujjatning qolgan qismi Subly dasturiy xizmatidan foydalanish bo‘yicha litsenziya shartnomasini quyidagi shartlarda tuzish to‘g‘risidagi ommaviy ofertadir. Oferta go‘zallik va boshqa maishiy xizmatlar ko‘rsatuvchi O‘zbekiston Respublikasidagi yuridik shaxslar, yakka tartibdagi tadbirkorlar va o‘zini o‘zi band qilgan shaxslarga qaratilgan. Uni diqqat bilan o‘qing: 4-bo‘limda ko‘rsatilgan tartibda qabul qilish orqali siz biz bilan shartnoma tuzasiz.",
     sections: [
       {
         heading: "1. Umumiy qoidalar",
@@ -1023,7 +1031,7 @@ export const studioOferta: LocalizedPolicy = {
           },
           {
             type: "paragraph",
-            text: "1.2. Litsenziar — Studio xizmatiga egalik qiluvchi va uning ishlashini ta’minlovchi kompaniya (keyingi o‘rinlarda — “Litsenziar”, “biz”).",
+            text: "1.2. Litsenziar — JABS PROJECT, MChJ (mas’uliyati cheklangan jamiyat), yuridik manzili: 32, 20, Yangi Kamolot MFY, Feruza (Kadirova) Str., Tashkent - 100059, Uzbekistan (keyingi o‘rinlarda — “Litsenziar”, “biz”). Subly xizmati, jumladan Google Play va App Store’da Sardor Mahmudov dasturchi nomi ostida e’lon qilingan Subly mobil ilovasi (Android paket nomi: com.subly.uz) Litsenziarga tegishli va uning ishlashini Litsenziar ta’minlaydi. Aloqa: e-mail sardormahmudov16@gmail.com, telefon +998 94 640 86 46.",
           },
           {
             type: "paragraph",
@@ -1037,12 +1045,12 @@ export const studioOferta: LocalizedPolicy = {
           {
             type: "list",
             items: [
-              "Xizmat — iOS va Android uchun Studio mobil ilovasi, uning server qismi va u orqali yaratiladigan onlayn yozilish saytlari; Litsenziarga tegishli va u tomonidan boshqariladi.",
+              "Xizmat — iOS va Android uchun Subly mobil ilovasi, uning server qismi va u orqali yaratiladigan onlayn yozilish saytlari; Litsenziarga tegishli va u tomonidan boshqariladi.",
               "Buyurtmachi — Xizmatda Biznes yaratgan va ushbu Shartnomani aksept qilgan yuridik shaxs, yakka tartibdagi tadbirkor yoki o‘zini o‘zi band qilgan shaxs.",
               "Biznes — Buyurtmachining Xizmatdagi hisobi: filiallari, xizmatlari, jamoasi, mijozlari, ish jadvallari, to‘lov yozuvlari va sozlamalari.",
               "Foydalanuvchi — Xizmatga telefon raqami orqali kiradigan jismoniy shaxs. Bitta Foydalanuvchi har birida turli rol bilan bir nechta Biznesga a’zo bo‘lishi mumkin.",
               "Egasi, Menejer, Xodim — Foydalanuvchining Biznesdagi rollari; ularning huquqlari 5-bo‘limda bayon etilgan.",
-              "Mijoz — Buyurtmachining mijozi: ma’lumotlarini Buyurtmachi Xizmatga kiritadigan yoki Yozilish sayti orqali Buyurtmachining xizmatlariga yoziladigan shaxs. Mijozlar Studio ilovasidan foydalanmaydi.",
+              "Mijoz — Buyurtmachining mijozi: ma’lumotlarini Buyurtmachi Xizmatga kiritadigan yoki Yozilish sayti orqali Buyurtmachining xizmatlariga yoziladigan shaxs. Mijozlar Subly ilovasidan foydalanmaydi.",
               "Yozilish sayti — Xizmatda yaratilgan Biznesning ommaviy veb-sahifasi; u orqali Mijozlar Buyurtmachining xizmatlariga o‘zlari yoziladi.",
               "Obuna — tanlangan Tarif bo‘yicha tanlangan muddatga Xizmatdan pullik foydalanish huquqi.",
               "Tarif — ilovada e’lon qilingan Xizmat shartlari to‘plami (nomi, jamoa soni chegarasi, muddatlar bo‘yicha narx variantlari).",
@@ -1329,6 +1337,10 @@ export const studioOferta: LocalizedPolicy = {
           {
             type: "paragraph",
             text: "12.8. Ma’lumotlarga kirish, ularni tuzatish, o‘chirish yoki eksport qilish, shuningdek Foydalanuvchi hisobi yoki Biznesni o‘chirish bo‘yicha so‘rovlar qo‘llab-quvvatlash xizmati orqali yuboriladi. Litsenziar 30 kun ichida javob beradi. Mijozlarning Buyurtmachidagi ma’lumotlar bo‘yicha so‘rovlari Buyurtmachiga yuboriladi va u ma’lumotlar mulkdori sifatida ular bo‘yicha qaror qabul qiladi.",
+          },
+          {
+            type: "paragraph",
+            text: "12.9. Shaxsga doir ma’lumotlar operatori va maxfiylik masalalari bo‘yicha aloqa: JABS PROJECT, MChJ, Subly ilovasining dasturchisi (Google Play’dagi dasturchi nomi: Sardor Mahmudov; paket nomi com.subly.uz), 32, 20, Yangi Kamolot MFY, Feruza (Kadirova) Str., Tashkent - 100059, Uzbekistan; e-mail: sardormahmudov16@gmail.com; telefon: +998 94 640 86 46. 12.8-band bo‘yicha so‘rovlarni ham ushbu e-mail manziliga yuborish mumkin.",
           },
         ],
       },

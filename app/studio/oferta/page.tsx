@@ -16,7 +16,7 @@ export async function generateMetadata({
   const locale = resolveLocale(lang);
   const doc = studioOferta[locale];
   return {
-    title: `Studio — ${doc.title}`,
+    title: `Subly — ${doc.title}`,
     description: doc.intro,
   };
 }
